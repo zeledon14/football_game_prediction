@@ -1,0 +1,22 @@
+name: football_ds
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - jupyter
+  - ipykernel
+  - seaborn
+  - pandas
+  - pyarrow
+  - numpy
+  - pytorch
+  - torchvision
+  - pytorch-cuda=12.6
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - pip
+  - pip:
+    - soccerdata
